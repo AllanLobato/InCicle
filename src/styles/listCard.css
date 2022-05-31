@@ -1,0 +1,30 @@
+/* section.repository-list h1{
+    margin-left: 78px;
+    color:#121212;
+} */
+
+.repository-list{
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: flex-start;
+
+} 
+
+.principalName{
+    margin-top: 34px;
+    margin-left: 10%;
+    color:#121212;
+}
+
+.paper2 {
+    max-Width: 894;
+    max-Height: 98;
+    margin-Top:10;
+    margin-left:10%;
+}    
+.paper3 {
+    max-Width: 894;
+    max-Height: 98;
+    margin-Top:10;
+    margin-left:10%;
+}
