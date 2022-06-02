@@ -5,10 +5,12 @@ import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
-        flexGrow: 1,
-      margin: theme.spacing(0),
+      flexGrow: 1,
+      margin: 2,
       width: 103,
       height: 38,
+      background:'#3489b1',
+      color:'#fff'
     },
   },
 }));
@@ -18,7 +20,7 @@ export default function ContainedButtons() {
 
   return (
     <div className={classes.root}>
-      <Button variant="contained">Criar  +</Button>
+      <Button variant="contained" >Criar +</Button>
     </div>
   );
 }

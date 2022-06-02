@@ -1,20 +1,12 @@
-import './/styles/global.css'
-import Header from './components/Header';
-import ListCard from './components/ListCard';
-import data from '../src/components/data.json'
-import Card from './components/Card';
-
-
+import ".//styles/global.css";
+import Header from "./components/Header";
+import ListCard from "./components/ListCard";
 
 function App() {
   return (
-    
     <>
-    <Header />
-    <ListCard /> 
-    
-
-
+      <Header />
+      <ListCard />
     </>
   );
 }

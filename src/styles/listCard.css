@@ -1,30 +1,41 @@
-/* section.repository-list h1{
-    margin-left: 78px;
-    color:#121212;
-} */
+/* Css do texto Endomarketing, do select e o botão Criar */
 
-.repository-list{
-    flex-direction: row;
-    justify-content: space-around; 
-    align-items: flex-start;
-
-} 
-
-.principalName{
-    margin-top: 34px;
-    margin-left: 10%;
-    color:#121212;
+.endomarketingGeral {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-end;
 }
 
-.paper2 {
-    max-Width: 894;
-    max-Height: 98;
-    margin-Top:10;
-    margin-left:10%;
-}    
-.paper3 {
-    max-Width: 894;
-    max-Height: 98;
-    margin-Top:10;
-    margin-left:10%;
+.endomarketing {
+    width: 78%;
+    font-family: 'Open Sans','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.selectPosition{
+    align-items:flex-end;
+
+}
+.select{
+    margin: 2px;
+    height: 38px;
+}
+
+/*/////////////////////////*/
+
+/* Css dos icones do widget*/
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.buttonDispensar {
+
+    height: 38px;
+    width: 113px;
+    margin-top: 5%;
+    background: rgba(53, 44, 44, 0);
 }
